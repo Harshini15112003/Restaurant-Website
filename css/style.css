@@ -1,0 +1,227 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+h1
+{
+	font-size:28px;
+	text-transform:capitalize;
+}
+.sidebar
+{
+	width: 200px;
+    padding: 20px;
+	background-color:#000;
+	color:#fff;
+	height: 100vh;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+	transition:0.3s;
+	
+}
+.sidebar.open
+{
+	left:0px;
+}
+.sidebar.close
+{
+	left:-241px;
+}
+.sidebar div:first-child
+{
+	display: flex;
+    justify-content: space-between;
+
+}
+.sidebar div:first-child img
+{
+	height:20px;
+	background-color:#fff;
+	padding: 10px;
+    border-radius: 36px;
+}
+ .sidebar div:nth-child(2) ul
+ {
+	 margin-top:20px;
+ }
+ .sidebar div:nth-child(2) ul li 
+ {
+	 list-style:none;
+	 line-height:2;
+	 
+ }
+  .sidebar div:nth-child(2) ul li a
+  {
+	  color:#fff;
+	  text-decoration:none;
+  }
+.navbar
+{
+	background-image:url(https://www.intechnic.com/hubfs/Blog/Featured%20Images/Best%20Restaurant%20Website%20Design%20Inspirations.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top;
+	height:100vh;
+	width:100%;
+
+}
+.container
+{
+	width:90%;
+	margin:auto;
+}
+.navbar div{
+	display:flex;
+	padding:20px;
+	align-items: center;
+}
+.menu-icon
+{
+	height: 23px;
+    margin-right: 20px;
+}
+.navbar .container h1
+{
+	text-transform:uppercase;
+}
+.web.container
+{
+	position: absolute;
+    background-color: #fff;
+    width: 85%;
+    top: -69px;
+    margin-left: 4%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.web_design
+{
+	display: flex;
+}	
+.web_design div:first-child
+{
+	width: -webkit-fill-available;
+	display: flex;
+    flex-direction: column;
+	margin-right: 25px;
+	text-align:center;
+}
+.web_design div:first-child img
+{
+	width: 100%;
+	border-bottom:10px solid #2ed15c;
+	margin-bottom:10px;
+}
+.web_design div:first-child a
+{
+	text-transform:capitalize;
+}
+.web_design div:nth-child(2) span
+{
+	background-color:#2ed15c;
+	margin-bottom:20px;
+	color:#fff;
+	font-size:14px;
+	padding:5px 8px ;
+}
+.web_design div:nth-child(2) h1
+{
+	font-size:44px;
+	margin-top:20px;
+}
+.web_design div:nth-child(2) p
+
+{
+	font-size:16px;
+	color:#333;
+	text-align:justify;
+	line-height:2;
+}
+.fix-sidebar
+{
+	position: fixed;
+    top: 36%;
+}
+.fix-sidebar div a img
+{
+	height:20px;
+	padding:10px;
+	
+}
+.fix-sidebar div:nth-child(1)
+{
+	background-color:rgb(59, 89, 152);
+	color:#fff;
+}
+.fix-sidebar div:nth-child(2)
+{
+	background-color:rgb(0, 172, 237);
+	color:#fff;
+}.fix-sidebar div:nth-child(3)
+{
+	background-color:rgb(59, 89, 152);
+	color:#fff;
+}	
+.cover_close.cover
+{
+     position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #00000059;
+    z-index: 5;
+    top: 0px;
+}
+.contactus h1,
+.aboutus h1
+{
+	font-size:30px;
+	margin-bottom:20px;
+}
+.aboutus p
+{
+	text-align:justify;
+	line-height:2;
+	font-size:16px;
+	margin-bottom:20px;
+}
+.adderss
+{
+	display: flex;
+    justify-content: space-around;
+	margin-bottom:20px;
+}
+.adderss div
+{
+	padding: 20px 50px;
+    box-shadow: 1px 0px 3px;
+    border-radius: 10px;
+}
+.adderss div p
+{
+	line-height:2;
+	text-align:center;
+	
+}
+.container {
+	text-align: center;
+}
+.card {
+	width: 300px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+.card h3 {
+	margin-top: 10px;
+}
+.card p {
+	margin-top: 5px;
+}
